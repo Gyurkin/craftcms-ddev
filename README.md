@@ -136,6 +136,8 @@ A Makefile is included to provide a unified CLI for common tasks:
 - [Postmark](https://plugins.craftcms.com/postmark)
 - [Servd Assets and Helpers](https://github.com/servdhost/craft-asset-storage)
 - [Vite](https://github.com/nystudio107/craft-vite)
+- [Seo](https://github.com/ethercreative/seo)
+- [Minify](https://github.com/nystudio107/craft-minify)
 
 ### Tailwind CSS Plugins
 

@@ -22,13 +22,21 @@
     "craftcms/postmark": "^3.1.0",
     "mmikkel/cp-field-inspect": "^2.0.2",
     "nystudio107/craft-vite": "^5.0.1",
+    "nystudio107/craft-minify": "^5.0.0",
     "servd/craft-asset-storage": "^4.0.6",
-    "vlucas/phpdotenv": "^5.4.0"
+    "vlucas/phpdotenv": "^5.4.0",
+    "ether/seo": "^5.0.0",
   },
   "require-dev": {
     "nystudio107/craft-autocomplete": "^1.10.0",
     "yiisoft/yii2-shell": "^2.0.3"
   },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.yui.sk/"
+    }
+  ],
   "scripts": {
     "craft-update": [
       "@pre-craft-update",

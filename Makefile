@@ -18,6 +18,8 @@ install: up build
 	ddev exec php craft plugin/install cp-field-inspect
 	ddev exec php craft plugin/install postmark
 	ddev exec php craft plugin/install vite
+	ddev exec php craft plugin/install minify
+	ddev exec php craft plugin/install seo
 up:
 	if [ ! "$$(ddev describe | grep OK)" ]; then \
         ddev auth ssh; \
