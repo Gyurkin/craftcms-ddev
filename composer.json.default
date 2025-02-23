@@ -25,7 +25,7 @@
     "nystudio107/craft-minify": "^5.0.0",
     "servd/craft-asset-storage": "^4.0.6",
     "vlucas/phpdotenv": "^5.4.0",
-    "ether/seo": "^5.0.0",
+    "ether/seo": "^5.0.0"
   },
   "require-dev": {
     "nystudio107/craft-autocomplete": "^1.10.0",
