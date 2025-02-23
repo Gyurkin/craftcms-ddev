@@ -1,0 +1,9 @@
+/.env
+/.idea
+/vendor
+.DS_Store
+
+# Don't save package-lock, when we're fresh installing.
+package-lock.json
+/node_modules/
+/composer.lock

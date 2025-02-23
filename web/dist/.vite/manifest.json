@@ -1,0 +1,12 @@
+{
+  "src/js/app.js": {
+    "file": "assets/app-CQmSDi4q.js",
+    "name": "app",
+    "src": "src/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app-BawbgLuh.css"
+    ],
+    "integrity": "sha384-XI9B1rvZfCBwqyAUrQDhz1issAqkTa95La4Hv8F89pBPR5sHGPS6Yw1vVzBJibvu"
+  }
+}
