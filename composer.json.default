@@ -31,12 +31,6 @@
     "nystudio107/craft-autocomplete": "^1.10.0",
     "yiisoft/yii2-shell": "^2.0.3"
   },
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://repo.yui.sk/"
-    }
-  ],
   "scripts": {
     "craft-update": [
       "@pre-craft-update",
