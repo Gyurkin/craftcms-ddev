@@ -100,6 +100,17 @@ After installation, open your project in your default browser with:
 ddev launch
 ```
 
+### Troubleshooting
+
+When you run the `ddev launch` command, you might encounter an error indicating an exit status 127. 
+This typically means that the system cannot find a required command—in most cases, `xdg-open`.
+
+On Debian/Ubuntu-based systems, you can install it by running:
+
+```shell
+sudo apt-get install xdg-utils
+```
+
 ## Local Development
 
 For an enhanced development experience with hot module replacement (HMR) via Vite, run:
@@ -126,6 +137,27 @@ A Makefile is included to provide a unified CLI for common tasks:
 - **\`make dev\`**: Build front-end assets and run the Vite development server.
 - **\`make build\`**: Build all front-end assets for production.
 - **\`make pull\`**: Pull remote database and assets (requires [craft-scripts](https://github.com/nystudio107/craft-scripts/)).
+
+### Makefile on Windows
+
+Running `Makefile` CLI tasks on Windows may result in errors if the required utilities aren’t installed by default. Windows doesn’t come with a native Unix-like environment, so tasks that work on Linux or macOS might fail until you set up the proper tools.
+
+#### Install a Make Utility
+
+If you have [Chocolatey](https://chocolatey.org/) installed, you can quickly install GNU Make by running:
+
+```shell
+choco install make
+```
+
+#### Verify the Installation
+
+- Open a Command Prompt, PowerShell, or your preferred terminal.
+- Run the following command to check that Make is installed correctly:
+
+```shell
+make --version
+```
 
 ## Plugins and Libraries
 
