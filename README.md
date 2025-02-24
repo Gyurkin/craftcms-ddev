@@ -35,6 +35,7 @@ This starter project is designed to give you a fast and flexible setup for Craft
 Before you begin, ensure you have the following installed on your local machine:
 
 1. [Docker](https://www.docker.com/)
+2. [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) (Windows only)
 2. [DDEV](https://ddev.readthedocs.io/) (minimum version 1.19)
 3. (Optional but recommended) [Composer](https://getcomposer.org/)
 
