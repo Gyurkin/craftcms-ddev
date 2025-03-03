@@ -1,6 +1,6 @@
 {
-  "author": "One Darnley Road Digital Ltd",
-  "version": "0.0.1",
+  "author": "Juraj Nagy",
+  "version": "0.0.2",
   "dependencies": {
     "alpinejs": "^3.14.8",
     "lazysizes": "^5.3.2"
