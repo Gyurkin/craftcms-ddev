@@ -27,7 +27,6 @@ This starter project is designed to give you a fast and flexible setup for Craft
 - **Utility-first CSS:** Built with [Tailwind CSS 3.x](https://tailwindcss.com)
 - **Lightweight Reactivity:** Uses [Alpine.js 3.x](https://alpinejs.dev/)
 - **Hosting Ready:** Configured for deployment on [Servd](https://servd.host/)
-- **Email Delivery:** Integrated [Postmark](https://postmarkapp.com/)
 - **Unified CLI:** Simplified commands via a [Makefile](https://www.gnu.org/software/make/manual/make.html)
 
 ## Prerequisites
@@ -76,7 +75,7 @@ ddev config
 Follow the prompts:
 - **Project Name:** For example, entering \`mysite\` will create the URL \`https://mysite.ddev.site\`
 - **Docroot Location:** Defaults to \`web\` (recommended)
-- **Project Type:** Defaults to \`php\` (recommended)
+- **Project Type:** Defaults to \`craftcms\` (recommended)
 
 ## Installation
 
@@ -166,7 +165,6 @@ make --version
 
 - [CKEditor](https://plugins.craftcms.com/ckeditor)
 - [CP Field Inspect](https://plugins.craftcms.com/cp-field-inspect)
-- [Postmark](https://plugins.craftcms.com/postmark)
 - [Servd Assets and Helpers](https://github.com/servdhost/craft-asset-storage)
 - [Vite](https://github.com/nystudio107/craft-vite)
 - [Seo](https://github.com/ethercreative/seo)
